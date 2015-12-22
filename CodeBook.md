@@ -1,6 +1,5 @@
 #CodeBook
 
-
 ## Data files
 * ./UCI HAR Dataset/features.txt
 (contains the field names and column number of the X_test.txt and X_train.txt files)
@@ -46,84 +45,84 @@ In order to get column names that are even better understandable the following t
 * first character "f" replaced by "frequency"
 
 ## Column names of the output file.
-* "studyParticipant" 
-* "activity" 
-* "timeBodyAcceleration-mean()-X" 
-* "timeBodyAcceleration-mean()-Y" 
-* "timeBodyAcceleration-mean()-Z" 
-* "timeGravityAcceleration-mean()-X" 
-* "timeGravityAcceleration-mean()-Y" 
-* "timeGravityAcceleration-mean()-Z" 
-* "timeBodyAccelerationJerk-mean()-X" 
-* "timeBodyAccelerationJerk-mean()-Y" 
-* "timeBodyAccelerationJerk-mean()-Z" 
-* "timeBodyAngularVelocity-mean()-X" 
-* "timeBodyAngularVelocity-mean()-Y" 
-* "timeBodyAngularVelocity-mean()-Z" 
-* "timeBodyAngularVelocityJerk-mean()-X" 
-* "timeBodyAngularVelocityJerk-mean()-Y" 
-* "timeBodyAngularVelocityJerk-mean()-Z" 
-* "timeBodyAccelerationMagnitude-mean()" 
-* "timeGravityAccelerationMagnitude-mean()" 
-* "timeBodyAccelerationJerkMagnitude-mean()" 
-* "timeBodyAngularVelocityMagnitude-mean()" 
-* "timeBodyAngularVelocityJerkMagnitude-mean()" 
-* "frequencyBodyAcceleration-mean()-X" 
-* "frequencyBodyAcceleration-mean()-Y" 
-* "frequencyBodyAcceleration-mean()-Z" 
-* "frequencyBodyAcceleration-meanFrequency()-X" 
-* "frequencyBodyAcceleration-meanFrequency()-Y" 
-* "frequencyBodyAcceleration-meanFrequency()-Z" 
-* "frequencyBodyAccelerationJerk-mean()-X" 
-* "frequencyBodyAccelerationJerk-mean()-Y" 
-* "frequencyBodyAccelerationJerk-mean()-Z" 
-* "frequencyBodyAccelerationJerk-meanFrequency()-X" 
-* "frequencyBodyAccelerationJerk-meanFrequency()-Y" 
-* "frequencyBodyAccelerationJerk-meanFrequency()-Z" 
-* "frequencyBodyAngularVelocity-mean()-X" 
-* "frequencyBodyAngularVelocity-mean()-Y" 
-* "frequencyBodyAngularVelocity-mean()-Z" 
-* "frequencyBodyAngularVelocity-meanFrequency()-X" 
-* "frequencyBodyAngularVelocity-meanFrequency()-Y" 
-* "frequencyBodyAngularVelocity-meanFrequency()-Z" 
-* "frequencyBodyAccelerationMagnitude-mean()" 
-* "frequencyBodyAccelerationMagnitude-meanFrequency()" 
-* "frequencyBodyBodyAccelerationJerkMagnitude-mean()" 
-* "frequencyBodyBodyAccelerationJerkMagnitude-meanFrequency()" 
-* "frequencyBodyBodyAngularVelocityMagnitude-mean()" 
-* "frequencyBodyBodyAngularVelocityMagnitude-meanFrequency()" 
-* "frequencyBodyBodyAngularVelocityJerkMagnitude-mean()" 
-* "frequencyBodyBodyAngularVelocityJerkMagnitude-meanFrequency()" 
-* "timeBodyAcceleration-standardDeviation()-X" 
-* "timeBodyAcceleration-standardDeviation()-Y" 
-* "timeBodyAcceleration-standardDeviation()-Z" 
-* "timeGravityAcceleration-standardDeviation()-X" 
-* "timeGravityAcceleration-standardDeviation()-Y" 
-* "timeGravityAcceleration-standardDeviation()-Z" 
-* "timeBodyAccelerationJerk-standardDeviation()-X" 
-* "timeBodyAccelerationJerk-standardDeviation()-Y" 
-* "timeBodyAccelerationJerk-standardDeviation()-Z" 
-* "timeBodyAngularVelocity-standardDeviation()-X" 
-* "timeBodyAngularVelocity-standardDeviation()-Y" 
-* "timeBodyAngularVelocity-standardDeviation()-Z" 
-* "timeBodyAngularVelocityJerk-standardDeviation()-X" 
-* "timeBodyAngularVelocityJerk-standardDeviation()-Y" 
-* "timeBodyAngularVelocityJerk-standardDeviation()-Z" 
-* "timeBodyAccelerationMagnitude-standardDeviation()" 
-* "timeGravityAccelerationMagnitude-standardDeviation()" 
-* "timeBodyAccelerationJerkMagnitude-standardDeviation()" 
-* "timeBodyAngularVelocityMagnitude-standardDeviation()" 
-* "timeBodyAngularVelocityJerkMagnitude-standardDeviation()" 
-* "frequencyBodyAcceleration-standardDeviation()-X" 
-* "frequencyBodyAcceleration-standardDeviation()-Y" 
-* "frequencyBodyAcceleration-standardDeviation()-Z" 
-* "frequencyBodyAccelerationJerk-standardDeviation()-X" 
-* "frequencyBodyAccelerationJerk-standardDeviation()-Y" 
-* "frequencyBodyAccelerationJerk-standardDeviation()-Z" 
-* "frequencyBodyAngularVelocity-standardDeviation()-X" 
-* "frequencyBodyAngularVelocity-standardDeviation()-Y" 
-* "frequencyBodyAngularVelocity-standardDeviation()-Z" 
-* "frequencyBodyAccelerationMagnitude-standardDeviation()" 
-* "frequencyBodyBodyAccelerationJerkMagnitude-standardDeviation()" 
-* "frequencyBodyBodyAngularVelocityMagnitude-standardDeviation()" 
-* "frequencyBodyBodyAngularVelocityJerkMagnitude-standardDeviation()"
+* "studyParticipant" --- Code for the study participant that performed the activity mentioned in this row.
+* "activity" --- Brief description of the activity performed by the study participant
+* "timeBodyAcceleration-mean()-X" --- Mean (time domain) body acceleration in the X-direction
+* "timeBodyAcceleration-mean()-Y" --- Mean (time domain) body acceleration in the Y-direction
+* "timeBodyAcceleration-mean()-Z" --- Mean (time domain) body acceleration in the Z-direction
+* "timeGravityAcceleration-mean()-X" --- Mean (time domain) gravity acceleration in the X-direction
+* "timeGravityAcceleration-mean()-Y" --- Mean (time domain) gravity acceleration in the Y-direction
+* "timeGravityAcceleration-mean()-Z" --- Mean (time domain) gravity acceleration in the Z-direction
+* "timeBodyAccelerationJerk-mean()-X" --- Mean (time domain) body acceleration in the X-direction due to jerk movements
+* "timeBodyAccelerationJerk-mean()-Y" --- Mean (time domain) body acceleration in the Y-direction due to jerk movements
+* "timeBodyAccelerationJerk-mean()-Z" --- Mean (time domain) body acceleration in the Z-direction due to jerk movements
+* "timeBodyAngularVelocity-mean()-X" --- Mean (time domain) body angular velocity in the X-direction
+* "timeBodyAngularVelocity-mean()-Y" --- Mean (time domain) body angular velocity in the Y-direction
+* "timeBodyAngularVelocity-mean()-Z" --- Mean (time domain) body angular velocity in the Z-direction
+* "timeBodyAngularVelocityJerk-mean()-X" --- Mean (time domain) body angular velocity in the X-direction due to jerk movements
+* "timeBodyAngularVelocityJerk-mean()-Y" --- Mean (time domain) body angular velocity in the Y-direction due to jerk movements
+* "timeBodyAngularVelocityJerk-mean()-Z" --- Mean (time domain) body angular velocity in the Z-direction due to jerk movements
+* "timeBodyAccelerationMagnitude-mean()" --- Mean (time domain) magnitude body acceleration (Euclidean norm)
+* "timeGravityAccelerationMagnitude-mean()" --- Mean (time domain) magnitude gravity acceleration (Euclidean norm)
+* "timeBodyAccelerationJerkMagnitude-mean()" --- Mean (time domain) magnitude body acceleration (Euclidean norm) due to jerks
+* "timeBodyAngularVelocityMagnitude-mean()" --- Mean (time domain) magnitude body angular velocity (Euclidean norm)
+* "timeBodyAngularVelocityJerkMagnitude-mean()" --- Mean (time domain) magnitude body angular velocity (Euclidean norm) due to jerks
+* "frequencyBodyAcceleration-mean()-X" --- Mean (frequency domain) body acceleration in the X-direction
+* "frequencyBodyAcceleration-mean()-Y" --- Mean (frequency domain) body acceleration in the Y-direction
+* "frequencyBodyAcceleration-mean()-Z" --- Mean (frequency domain) body acceleration in the Z-direction
+* "frequencyBodyAcceleration-meanFrequency()-X" --- Weighted average of frequency components (frequency domain) body acceleration in the X-direction
+* "frequencyBodyAcceleration-meanFrequency()-Y" --- Weighted average of frequency components (frequency domain) body acceleration in the Y-direction
+* "frequencyBodyAcceleration-meanFrequency()-Z" --- Weighted average of frequency components (frequency domain) body acceleration in the Z-direction
+* "frequencyBodyAccelerationJerk-mean()-X" --- Mean (frequency domain) body acceleration in the X-direction due to jerks
+* "frequencyBodyAccelerationJerk-mean()-Y" --- Mean (frequency domain) body acceleration in the Y-direction due to jerks
+* "frequencyBodyAccelerationJerk-mean()-Z" --- Mean (frequency domain) body acceleration in the Z-direction due to jerks
+* "frequencyBodyAccelerationJerk-meanFrequency()-X" --- Weighted average of frequency components (frequency domain) body acceleration in the X-direction due to jerk movements
+* "frequencyBodyAccelerationJerk-meanFrequency()-Y" --- Weighted average of frequency components (frequency domain) body acceleration in the Y-direction due to jerk movements
+* "frequencyBodyAccelerationJerk-meanFrequency()-Z" --- Weighted average of frequency components (frequency domain) body acceleration in the Z-direction due to jerk movements
+* "frequencyBodyAngularVelocity-mean()-X" --- Mean (frequency domain) body angular velocity in the X-direction
+* "frequencyBodyAngularVelocity-mean()-Y" --- Mean (frequency domain) body angular velocity in the Y-direction
+* "frequencyBodyAngularVelocity-mean()-Z" --- Mean (frequency domain) body angular velocity in the Z-direction
+* "frequencyBodyAngularVelocity-meanFrequency()-X" --- Weighted average of frequency components (frequency domain) body angular velocity in the X-direction
+* "frequencyBodyAngularVelocity-meanFrequency()-Y" --- Weighted average of frequency components (frequency domain) body angular velocity in the Y-direction
+* "frequencyBodyAngularVelocity-meanFrequency()-Z" --- Weighted average of frequency components (frequency domain) body angular velocity in the Z-direction
+* "frequencyBodyAccelerationMagnitude-mean()" --- Mean (frequency domain) magnitude body acceleration (Euclidean norm)
+* "frequencyBodyAccelerationMagnitude-meanFrequency()" --- Weighted average of frequency components (frequency domain) body acceleration (Euclidean norm)
+* "frequencyBodyBodyAccelerationJerkMagnitude-mean()" --- Mean (frequency domain) magnitude body acceleration (Euclidean norm) due to jerk movements
+* "frequencyBodyBodyAccelerationJerkMagnitude-meanFrequency()" --- Weighted average of frequency components (frequency domain) body acceleration (Euclidean norm) due to jerk movements
+* "frequencyBodyBodyAngularVelocityMagnitude-mean()" --- Mean (frequency domain) magnitude body angular velocity (Euclidean norm)
+* "frequencyBodyBodyAngularVelocityMagnitude-meanFrequency()" --- Weighted average of frequency components (frequency domain) body angular velocity (Euclidean norm)
+* "frequencyBodyBodyAngularVelocityJerkMagnitude-mean()" --- Mean (frequency domain) magnitude body angular velocity (Euclidean norm)
+* "frequencyBodyBodyAngularVelocityJerkMagnitude-meanFrequency()" --- Mean (frequency domain) magnitude body angular velocity (Euclidean norm) due to jerks
+* "timeBodyAcceleration-standardDeviation()-X" --- Standard deviation (time domain) body acceleration in the X-direction
+* "timeBodyAcceleration-standardDeviation()-Y" --- Standard deviation (time domain) body acceleration in the Y-direction
+* "timeBodyAcceleration-standardDeviation()-Z" --- Standard deviation (time domain) body acceleration in the Z-direction
+* "timeGravityAcceleration-standardDeviation()-X" --- Standard deviation (time domain) gravity acceleration in the X-direction
+* "timeGravityAcceleration-standardDeviation()-Y" --- Standard deviation (time domain) gravity acceleration in the Y-direction
+* "timeGravityAcceleration-standardDeviation()-Z" --- Standard deviation (time domain) gravity acceleration in the Z-direction
+* "timeBodyAccelerationJerk-standardDeviation()-X" --- Standard deviation (time domain) body acceleration in the X-direction due to jerk movements.
+* "timeBodyAccelerationJerk-standardDeviation()-Y" --- Standard deviation (time domain) body acceleration in the Y-direction due to jerk movements.
+* "timeBodyAccelerationJerk-standardDeviation()-Z" --- Standard deviation (time domain) body acceleration in the Z-direction due to jerk movements.
+* "timeBodyAngularVelocity-standardDeviation()-X" --- Standard deviation (time domain) body angular velocity in the X-direction
+* "timeBodyAngularVelocity-standardDeviation()-Y" --- Standard deviation (time domain) body angular velocity in the Y-direction
+* "timeBodyAngularVelocity-standardDeviation()-Z" --- Standard deviation (time domain) body angular velocity in the Z-direction
+* "timeBodyAngularVelocityJerk-standardDeviation()-X" --- Standard deviation (time domain) body angular velocity in the X-direction due to jerk movements
+* "timeBodyAngularVelocityJerk-standardDeviation()-Y" --- Standard deviation (time domain) body angular velocity in the Y-direction due to jerk movements
+* "timeBodyAngularVelocityJerk-standardDeviation()-Z" --- Standard deviation (time domain) body angular velocity in the Z-direction due to jerk movements
+* "timeBodyAccelerationMagnitude-standardDeviation()" --- Standard deviation (time domain) magnitude body acceleration (Euclidean norm)
+* "timeGravityAccelerationMagnitude-standardDeviation()" --- Gravity deviation (time domain) magnitude body acceleration (Euclidean norm)
+* "timeBodyAccelerationJerkMagnitude-standardDeviation()" --- Standard deviation (time domain) magnitude body acceleration (Euclidean norm) due to jerk movements
+* "timeBodyAngularVelocityMagnitude-standardDeviation()" --- Standard deviation (time domain) magnitude body angular velocity (Euclidean norm)
+* "timeBodyAngularVelocityJerkMagnitude-standardDeviation()" --- Standard deviation (time domain) magnitude body angular velocity (Euclidean norm) due to jerk movements
+* "frequencyBodyAcceleration-standardDeviation()-X" --- Standard deviation (frequency domain) body acceleration in the X-direction
+* "frequencyBodyAcceleration-standardDeviation()-Y" --- Standard deviation (frequency domain) body acceleration in the Y-direction
+* "frequencyBodyAcceleration-standardDeviation()-Z" --- Standard deviation (frequency domain) body acceleration in the Z-direction
+* "frequencyBodyAccelerationJerk-standardDeviation()-X" --- Standard deviation (frequency domain) body acceleration in the X-direction due to jerk movements
+* "frequencyBodyAccelerationJerk-standardDeviation()-Y" --- Standard deviation (frequency domain) body acceleration in the Y-direction due to jerk movements
+* "frequencyBodyAccelerationJerk-standardDeviation()-Z" --- Standard deviation (frequency domain) body acceleration in the Z-direction due to jerk movements
+* "frequencyBodyAngularVelocity-standardDeviation()-X" --- Standard deviation (frequency domain) body angular velocity in the X-direction
+* "frequencyBodyAngularVelocity-standardDeviation()-Y" --- Standard deviation (frequency domain) body angular velocity in the Y-direction
+* "frequencyBodyAngularVelocity-standardDeviation()-Z" --- Standard deviation (frequency domain) body angular velocity in the Z-direction
+* "frequencyBodyAccelerationMagnitude-standardDeviation()" --- Standard deviation (frequency domain) magnitude body acceleration (Euclidean norm)
+* "frequencyBodyBodyAccelerationJerkMagnitude-standardDeviation()" --- Standard deviation (frequency domain) magnitude body acceleration (Euclidean norm) due to jerk movements
+* "frequencyBodyBodyAngularVelocityMagnitude-standardDeviation()" --- Standard deviation (frequency domain) magnitude body angular velocity (Euclidean norm)
+* "frequencyBodyBodyAngularVelocityJerkMagnitude-standardDeviation()" --- Standard deviation (frequency domain) magnitude body angular velocity (Euclidean norm) due to jerk movements
